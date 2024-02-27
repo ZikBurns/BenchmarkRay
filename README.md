@@ -9,6 +9,8 @@ rm -rf ~/miniconda3/miniconda.sh
 
 ~/miniconda3/bin/conda init bash
 conda create -n python311 python=3.11
+conda activate python311
+pip install -r requirements.txt
 ```
 
 TO BE DONE
